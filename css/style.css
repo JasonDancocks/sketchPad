@@ -1,0 +1,74 @@
+body{
+	background-color: #b4b6bd;
+}
+#pixelGrid{
+	width : 640px;
+	height: 640px;
+	max-width : 640px;
+	max-height: 640px;
+	min-width : 640px;
+	max-height: 640px;
+	margin: 0 auto;
+	background-color: 	#ED0F0E;
+	border: 70px solid 	#ED0F0E;
+	border-bottom: 120px solid 	#ED0F0E;
+	border-radius: 30px;
+	display:block;
+	position: relative;
+}
+
+.pixel{
+	float: left;
+	
+	background-color: #E2E1DF;
+	display: block;
+	
+}
+
+.active{
+	background-color: red;
+}
+
+#clear{
+	margin: 0 auto;
+	display: block;
+	margin-bottom: 5px;
+}
+
+#pixelInput{
+	margin:  auto;
+	margin-bottom: 5px;
+	width : 200px;
+	display:block;
+}
+#dial1{
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+	background-color: #E7E5F0;
+	position:absolute;
+	top: 650px;
+	left: -50px;
+}
+#dial2{
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+	background-color: #E7E5F0;
+	position:absolute;
+	top: 650px;
+	right: -50px;
+}
+#title{
+	position:absolute;
+	top: -83px;
+	text-align: center;
+	vertical-align: middle;
+	left: 215px;
+	text-decoration-color: #F8C66D;
+	font-family: 'Condiment', cursive;
+	font-size: 30px;
+}
+#clear{
+	border-radius: 5px;
+}
